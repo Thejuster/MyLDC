@@ -1,7 +1,9 @@
 # depslib dependency file v1.0
-1477605824 source:c:\users\utente\documents\cpp\myldc\myldc\myldc\main.cpp
+1477607307 source:c:\users\utente\documents\cpp\myldc\myldc\myldc\main.cpp
 	"main.h"
 
-1477605824 c:\users\utente\documents\cpp\myldc\myldc\myldc\main.h
+1477607608 c:\users\utente\documents\cpp\myldc\myldc\myldc\main.h
 	<windows.h>
+	<stdio.h>
+	<sstream>
 

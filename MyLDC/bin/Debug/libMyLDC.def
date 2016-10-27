@@ -1,2 +1,5 @@
 EXPORTS
-    _ZN4Info11InfoSistemaEv @1
+    _ZN4Info10SerializzaESs @1
+    _ZN4Info11InfoSistemaEv @2
+    _ZNKSt4fposIiEcvxEv @3
+    _get_output_format @4
