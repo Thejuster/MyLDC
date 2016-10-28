@@ -1,5 +1,13 @@
 #include "main.h"
 
+/***********************************************
+ *   MyLDC - PUBLIC MIT LICENCE
+ *   By Thejuster and Daemond
+ ***********************************************/
+
+
+
+
 //!Special Declaration
 extern "C" __declspec(dllexport) void __stdcall InfoSistema();
 extern "C" __declspec(dllexport) void __stdcall CreateDb();
