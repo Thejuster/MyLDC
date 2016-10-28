@@ -23,7 +23,7 @@ typedef MyLDC::Index Indices;
 
 
 //!Structure
-struct Rows
+typedef struct Rows
 {
     string name;
     bool primaryKey;
@@ -65,7 +65,6 @@ void MyLDC::CreateDb()
 
 
 
-
 void MyLDC::CreateTable(string tablename,string primaryKey)
 {
 
@@ -79,9 +78,11 @@ void MyLDC::CreateTable(string tablename,string primaryKey)
     row->type = INT;
 
 
+
     ofstream tb ("table.bin", ios::out | ios::app | ios::binary);
     tb << tablename << "|" << primaryKey;
     tb.close();
+
 
 
 }
