@@ -3,7 +3,7 @@
 /***********************************************
  *   MyLDC - PUBLIC MIT LICENCE
  *   By Thejuster and Daemond
- ***********************************************/
+ ************************************************/
 
 
 
@@ -64,15 +64,19 @@ void MyLDC::CreateDb()
 }
 
 
+
+
 void MyLDC::CreateTable(string tablename,string primaryKey)
 {
+
 
     //Simple Row Implementation
     row->name = "Example Row";
     row->AutoIncrement = true;
     row->primaryKey = true;
     row->comment = "Example Row";
-
+    row->attrib = _UNSIGNED;
+    row->type = INT;
 
 
     ofstream tb ("table.bin", ios::out | ios::app | ios::binary);
