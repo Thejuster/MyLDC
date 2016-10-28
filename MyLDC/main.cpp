@@ -1,29 +1,31 @@
 #include "main.h"
 
+//!Dichiarazioni Speciali
 extern "C" __declspec(dllexport) void __stdcall InfoSistema();
-extern "C" __declspec(dllexport) std::string __stdcall Serializza(std::string valore);
+extern "C" __declspec(dllexport) void __stdcall CreateDb();
 
-void Info::InfoSistema()
+//!Definizioni per tipo
+typedef ofstream Database;
+
+
+//!Info della libreria
+void MyLDC::InfoSistema()
 {
 
-    MessageBoxA(0,"Ciao Daemond", "DLL Message", MB_OK | MB_ICONINFORMATION);
+    MessageBoxA(0,"Welcome to MyLDC", "DLL Message", MB_OK | MB_ICONINFORMATION);
 }
 
 
-std::string Info::Serializza(std::string valore)
+
+//!Creazione di un Database
+void MyLDC::CreateDb()
 {
 
-    char* test = new char[20];
-	memset(test,0x0,20);
-	int i = 5;
-	memcpy (test, &i, sizeof(int));
-	std::ostringstream sout (std::ios_base::binary);
-	sout.write(test, 20);
-        int ipos = sout.tellp();
 
-	// testout points to the start of some garbage....
-	const char* testout = sout.str().data();
+ ofstream db ("database.bin", ios::out | ios::app | ios::binary);
+  db << "First_Database";
+  db.close();
 
 
-	return sout.str();
+
 }

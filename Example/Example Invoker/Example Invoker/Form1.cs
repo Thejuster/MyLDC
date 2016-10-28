@@ -19,7 +19,7 @@ namespace Example_Invoker
         }
 
 
-        [DllImport("MyLDC.dll", EntryPoint = "_ZN4Info11InfoSistemaEv")]
+        [DllImport("MyLDC.dll", EntryPoint = "_ZN5MyLDC8CreateDbEv")]
         static extern void SomeFunction();
 
         private void button1_Click(object sender, EventArgs e)
