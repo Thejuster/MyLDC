@@ -3,6 +3,7 @@
 //!Dichiarazioni Speciali
 extern "C" __declspec(dllexport) void __stdcall InfoSistema();
 extern "C" __declspec(dllexport) void __stdcall CreateDb();
+extern "C" __declspec(dllexport) void __stdcall CreateTable();
 
 //!Definizioni per tipo
 typedef ofstream Database;
@@ -27,5 +28,15 @@ void MyLDC::CreateDb()
   db.close();
 
 
-
 }
+
+
+void MyLDC::CreateTable(string tablename,string primaryKey)
+{
+    ofstream tb ("table.bin", ios::out | ios::app | ios::binary);
+    tb << tablename << "|" << primaryKey;
+    tb.close();
+}
+
+
+

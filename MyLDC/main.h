@@ -15,5 +15,6 @@ class MyLDC
 public:
    void InfoSistema();
    void CreateDb();
+   void CreateTable(string tablename,string primaryKey);
 
 };
