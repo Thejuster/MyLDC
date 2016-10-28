@@ -20,11 +20,17 @@ namespace Example_Invoker
 
 
         [DllImport("MyLDC.dll", EntryPoint = "_ZN5MyLDC8CreateDbEv")]
-        static extern void SomeFunction();
+        static extern void CreateDatabase(string databaseName);
+
+        [DllImport("MyLDC.dll", EntryPoint = "_ZN5MyLDC11CreateTableESsSs")]
+        static extern void CreateTable(string databaseName, string tablename, string primaryKey);
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SomeFunction();
+            string dbname = "TestData";
+
+            CreateDatabase(dbname);
+            CreateTable(dbname, "testTable", "testKey");
             
         }
     }

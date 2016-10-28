@@ -17,3 +17,12 @@ C:\Programmi\Git\MyLDC\Example\Example Invoker\Example Invoker\obj\Debug\Example
 C:\Programmi\Git\MyLDC\Example\Example Invoker\Example Invoker\obj\Debug\GenerateResource.read.1.tlog
 C:\Programmi\Git\MyLDC\Example\Example Invoker\Example Invoker\obj\Debug\GenerateResource.write.1.tlog
 C:\Programmi\Git\MyLDC\Example\Example Invoker\Example Invoker\obj\Debug\Example Invoker.exe
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\bin\Debug\Example Invoker.exe.config
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\obj\Debug\Example Invoker.pdb
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\bin\Debug\Example Invoker.exe
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\bin\Debug\Example Invoker.pdb
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\obj\Debug\Example Invoker.csprojResolveAssemblyReference.cache
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\obj\Debug\Example_Invoker.Form1.resources
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\obj\Debug\Example_Invoker.Properties.Resources.resources
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\obj\Debug\Example Invoker.csproj.GenerateResource.Cache
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\obj\Debug\Example Invoker.exe

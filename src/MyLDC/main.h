@@ -14,9 +14,9 @@ class MyLDC
 
 
 public:
-   void InfoSistema();
-   void CreateDb();
-   void CreateTable(string tablename,string primaryKey);
+   void SystemInfo();
+   void CreateDb(string databaseName);
+   void CreateTable(string databaseName, string tablename,string primaryKey);
 
 
     //!Enumeration

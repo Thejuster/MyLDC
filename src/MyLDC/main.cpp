@@ -22,6 +22,12 @@ typedef MyLDC::RowType Type;
 typedef MyLDC::Index Indices;
 
 
+//!Table
+typedef struct Table {
+  string name;
+  vector<Rows> rows;
+};
+
 //!Structure
 typedef struct Rows
 {
@@ -37,13 +43,14 @@ typedef struct Rows
     string comment;
 
 };
+
 Rows rw;
 Rows* row = &rw;
 
 
 
 //!Library Info
-void MyLDC::InfoSistema()
+void MyLDC::SystemInfo()
 {
 
     MessageBoxA(0,"MyLDC Created by Thejuster and Daemond", "DLL Message", MB_OK | MB_ICONINFORMATION);
@@ -52,11 +59,11 @@ void MyLDC::InfoSistema()
 
 
 //!Database Creation
-void MyLDC::CreateDb()
+void MyLDC::CreateDb(string databaseName)
 {
 
 
- ofstream db ("database.bin", ios::out | ios::app | ios::binary);
+ ofstream db (databaseName + ".ldc", ios::out | ios::app | ios::binary);
   db << "First_Database";
   db.close();
 
@@ -65,7 +72,7 @@ void MyLDC::CreateDb()
 
 
 
-void MyLDC::CreateTable(string tablename,string primaryKey)
+void MyLDC::CreateTable(string databaseName, string tablename,string primaryKey)
 {
 
 
@@ -79,13 +86,10 @@ void MyLDC::CreateTable(string tablename,string primaryKey)
 
 
 
-    ofstream tb ("table.bin", ios::out | ios::app | ios::binary);
-    tb << tablename << "|" << primaryKey;
-    tb.close();
+    ofstream dat (databaseName + ".ldc", ios::out | ios::app | ios::binary);
+    dat << tablename << "|" << primaryKey;
+    dat.close();
 
 
 
 }
-
-
-

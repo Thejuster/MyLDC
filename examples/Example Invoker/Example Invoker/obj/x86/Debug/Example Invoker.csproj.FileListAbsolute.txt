@@ -1,0 +1,8 @@
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\bin\x86\Debug\Example Invoker.exe.config
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\bin\x86\Debug\Example Invoker.exe
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\bin\x86\Debug\Example Invoker.pdb
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\obj\x86\Debug\Example_Invoker.Form1.resources
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\obj\x86\Debug\Example_Invoker.Properties.Resources.resources
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\obj\x86\Debug\Example Invoker.csproj.GenerateResource.Cache
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\obj\x86\Debug\Example Invoker.exe
+C:\Users\Demonial\Desktop\MyLDC\MyLDC\examples\Example Invoker\Example Invoker\obj\x86\Debug\Example Invoker.pdb
