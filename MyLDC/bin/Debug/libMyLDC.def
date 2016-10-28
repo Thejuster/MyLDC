@@ -1,9 +1,10 @@
 EXPORTS
-    _ZN5MyLDC11CreateTableESsSs @1
-    _ZN5MyLDC11InfoSistemaEv @2
-    _ZN5MyLDC8CreateDbEv @3
-    _ZN5TableC1Ev @4
-    _ZN5TableD1Ev @5
+    _ZN4RowsC1Ev @1
+    _ZN4RowsD1Ev @2
+    _ZN5MyLDC11CreateTableESsSs @3
+    _ZN5MyLDC11InfoSistemaEv @4
+    _ZN5MyLDC8CreateDbEv @5
     _ZStorSt13_Ios_OpenmodeS_ @6
     _get_output_format @7
-    table @8 DATA
+    row @8 DATA
+    rw @9 DATA

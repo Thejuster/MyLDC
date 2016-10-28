@@ -15,10 +15,10 @@ typedef MyLDC::Index Indices;
 
 
 //!Structure
-struct Table
+struct Rows
 {
     string name;
-    int primaryKey;
+    bool primaryKey;
     Type type;
     int lenght;
     string defined;
@@ -28,8 +28,9 @@ struct Table
     bool AutoIncrement;
     string comment;
 
-}table;
-
+};
+Rows rw;
+Rows* row = &rw;
 
 
 
@@ -57,9 +58,20 @@ void MyLDC::CreateDb()
 
 void MyLDC::CreateTable(string tablename,string primaryKey)
 {
+
+    //Simple Row Implementation
+    row->name = "Example Row";
+    row->AutoIncrement = true;
+    row->primaryKey = true;
+    row->comment = "Example Row";
+
+
+
     ofstream tb ("table.bin", ios::out | ios::app | ios::binary);
     tb << tablename << "|" << primaryKey;
     tb.close();
+
+
 }
 
 
