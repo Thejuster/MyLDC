@@ -1,0 +1,19 @@
+c:\users\utente\documents\visual studio 2015\Projects\Example Invoker\Example Invoker\bin\Debug\Example Invoker.exe.config
+c:\users\utente\documents\visual studio 2015\Projects\Example Invoker\Example Invoker\bin\Debug\Example Invoker.exe
+c:\users\utente\documents\visual studio 2015\Projects\Example Invoker\Example Invoker\bin\Debug\Example Invoker.pdb
+c:\users\utente\documents\visual studio 2015\Projects\Example Invoker\Example Invoker\obj\Debug\Example Invoker.csprojResolveAssemblyReference.cache
+c:\users\utente\documents\visual studio 2015\Projects\Example Invoker\Example Invoker\obj\Debug\Example_Invoker.Form1.resources
+c:\users\utente\documents\visual studio 2015\Projects\Example Invoker\Example Invoker\obj\Debug\Example_Invoker.Properties.Resources.resources
+c:\users\utente\documents\visual studio 2015\Projects\Example Invoker\Example Invoker\obj\Debug\Example Invoker.csproj.GenerateResource.Cache
+c:\users\utente\documents\visual studio 2015\Projects\Example Invoker\Example Invoker\obj\Debug\Example Invoker.exe
+c:\users\utente\documents\visual studio 2015\Projects\Example Invoker\Example Invoker\obj\Debug\Example Invoker.pdb
+C:\Programmi\Git\MyLDC\Example\Example Invoker\Example Invoker\bin\Debug\Example Invoker.exe.config
+C:\Programmi\Git\MyLDC\Example\Example Invoker\Example Invoker\obj\Debug\Example Invoker.pdb
+C:\Programmi\Git\MyLDC\Example\Example Invoker\Example Invoker\bin\Debug\Example Invoker.exe
+C:\Programmi\Git\MyLDC\Example\Example Invoker\Example Invoker\bin\Debug\Example Invoker.pdb
+C:\Programmi\Git\MyLDC\Example\Example Invoker\Example Invoker\obj\Debug\ResolveAssemblyReference.cache
+C:\Programmi\Git\MyLDC\Example\Example Invoker\Example Invoker\obj\Debug\Example_Invoker.Form1.resources
+C:\Programmi\Git\MyLDC\Example\Example Invoker\Example Invoker\obj\Debug\Example_Invoker.Properties.Resources.resources
+C:\Programmi\Git\MyLDC\Example\Example Invoker\Example Invoker\obj\Debug\GenerateResource.read.1.tlog
+C:\Programmi\Git\MyLDC\Example\Example Invoker\Example Invoker\obj\Debug\GenerateResource.write.1.tlog
+C:\Programmi\Git\MyLDC\Example\Example Invoker\Example Invoker\obj\Debug\Example Invoker.exe
