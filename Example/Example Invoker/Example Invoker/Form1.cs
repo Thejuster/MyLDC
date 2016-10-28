@@ -19,12 +19,13 @@ namespace Example_Invoker
         }
 
 
-        [DllImport("MyLDC.dll", EntryPoint = "_ZN5MyLDC8CreateDbEv")]
-        static extern void SomeFunction();
+        [DllImport("MyLDC.dll", EntryPoint = "SomeFunction", CallingConvention = CallingConvention.Cdecl)]
+        static extern void Query(string LPCSTR);
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SomeFunction();
+            Query("create table");
+            
             
         }
     }

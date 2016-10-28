@@ -9,9 +9,9 @@
 
 
 //!Special Declaration
-extern "C" __declspec(dllexport) void __stdcall InfoSistema();
+/*extern "C" __declspec(dllexport) void __stdcall InfoSistema();
 extern "C" __declspec(dllexport) void __stdcall CreateDb();
-extern "C" __declspec(dllexport) void __stdcall CreateTable();
+extern "C" __declspec(dllexport) void __stdcall CreateTable();*/
 
 
 //Structure
@@ -41,6 +41,12 @@ Rows rw;
 Rows* row = &rw;
 
 
+void SomeFunction(string sometext)
+{
+    MessageBoxA(0, "testssss", "DLL Message", MB_OK | MB_ICONINFORMATION);
+}
+
+
 
 //!Library Info
 void MyLDC::InfoSistema()
@@ -65,12 +71,16 @@ void MyLDC::CreateDb()
 
 
 
+
+
+
 void MyLDC::CreateTable(string tablename,string primaryKey)
 {
 
 
+
     //Simple Row Implementation
-    row->name = "Example Row";
+    /*row->name = "Example Row";
     row->AutoIncrement = true;
     row->primaryKey = true;
     row->comment = "Example Row";
@@ -81,7 +91,7 @@ void MyLDC::CreateTable(string tablename,string primaryKey)
 
     ofstream tb ("table.bin", ios::out | ios::app | ios::binary);
     tb << tablename << "|" << primaryKey;
-    tb.close();
+    tb.close();*/
 
 
 

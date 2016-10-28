@@ -1,3 +1,5 @@
+#ifndef __MAIN_H__
+#define __MAIN_H__
 
 #include <windows.h>
 #include <stdio.h>
@@ -5,8 +7,36 @@
 #include <iostream>
 #include <fstream>
 
-
 using namespace std;
+
+#ifdef BUILD_DLL
+    #define DLL_EXPORT __declspec(dllexport)
+#else
+    #define DLL_EXPORT __declspec(dllimport)
+#endif
+
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+void DLL_EXPORT SomeFunction(string sometext);
+void DLL_EXPORT InfoSistema();
+void DLL_EXPORT CreateDb();
+void DLL_EXPORT CreateTable();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // __MAIN_H__
+
+
+
+
+
+
 
 class MyLDC
 {
