@@ -1,24 +1,48 @@
 #include "main.h"
 
-//!Dichiarazioni Speciali
+//!Special Declaration
 extern "C" __declspec(dllexport) void __stdcall InfoSistema();
 extern "C" __declspec(dllexport) void __stdcall CreateDb();
 extern "C" __declspec(dllexport) void __stdcall CreateTable();
 
-//!Definizioni per tipo
+
+//Structure
+
+//!Type definition
 typedef ofstream Database;
+typedef MyLDC::RowType Type;
+typedef MyLDC::Index Indices;
 
 
-//!Info della libreria
+//!Structure
+struct Table
+{
+    string name;
+    int primaryKey;
+    Type type;
+    int lenght;
+    string defined;
+    MyLDC::Attributes attrib;
+    bool Nullable;
+    Indices index;
+    bool AutoIncrement;
+    string comment;
+
+}table;
+
+
+
+
+//!Library Info
 void MyLDC::InfoSistema()
 {
 
-    MessageBoxA(0,"Welcome to MyLDC", "DLL Message", MB_OK | MB_ICONINFORMATION);
+    MessageBoxA(0,"MyLDC Created by Thejuster and Daemond", "DLL Message", MB_OK | MB_ICONINFORMATION);
 }
 
 
 
-//!Creazione di un Database
+//!Database Creation
 void MyLDC::CreateDb()
 {
 
